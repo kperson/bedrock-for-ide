@@ -137,6 +137,11 @@ Check container logs:
 ./get-api-key.sh
 ```
 
+**Anthropic models return errors after working briefly**: If your account doesn't have Anthropic models enabled via the use-case form (directly or via a parent account), the models may work initially but then fail. Submit the required form:
+```bash
+./enable-anthropic.sh
+```
+
 ## How It Works
 
 This project uses [AWS Bedrock Access Gateway](https://github.com/aws-samples/bedrock-access-gateway), an AWS sample project that provides an OpenAI-compatible API layer on top of AWS Bedrock. The gateway translates OpenAI API calls into Bedrock API calls, allowing any tool that supports the OpenAI API format to work with Bedrock models.

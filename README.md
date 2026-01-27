@@ -21,7 +21,12 @@ Many development tools and IDEs support AI assistants through the OpenAI API. Th
 
 ### 1. Run the setup script
 
-Using an AWS profile:
+Using the default AWS profile:
+```bash
+./setup.sh
+```
+
+Using a named AWS profile:
 ```bash
 AWS_PROFILE=personal ./setup.sh
 ```

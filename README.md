@@ -1,4 +1,4 @@
-# AWS Bedrock for IDEs
+# AWS Bedrock for IDEs and TUIs
 
 Run AWS Bedrock models locally through an **OpenAI-compatible API**. This allows you to use Bedrock models (Claude, Llama, Mistral, etc.) with any tool that supports the OpenAI API format.
 
@@ -70,7 +70,7 @@ API_KEY=<ENTER_API_KEY_HERE> curl -X 'POST' \
 }'
 ```
 
-## IDE Setup Guides
+## IDE/TUI Setup Guides
 
 > **Note:** Each IDE requires a slightly different URL format. Follow the specific instructions for your IDE below.
 
